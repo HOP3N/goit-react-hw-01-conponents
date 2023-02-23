@@ -4,17 +4,17 @@
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 0.5rem;
+  border-radius: 8px;
 }
 
 .title {
   margin: 0;
-  padding: 2rem;
+  padding: 32px;
   text-transform: uppercase;
   text-align: center;
   color: #000;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 32px;
   border-bottom: 1px solid #d3d5e3;
 }
 
@@ -36,30 +36,30 @@
 }
 
 .statListItem:first-child {
-  border-radius: 0 0 0 0.5rem;
+  border-radius: 0 0 0 6px;
 }
 
 .statListItem:last-child {
-  border-radius: 0 0 0.5rem;
+  border-radius: 0 0 6px;
 }
 
 .statListItemNoTitle:first-child {
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: 6px 0 0 6px;
 }
 
 .statListItemNoTitle:last-child {
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 6px 6px 0;
 }
 
 .label {
-  padding-top: 1.3rem;
-  font-size: 1rem;
+  padding-top: 21px;
+  font-size: 20px;
   color: #fff;
 }
 
 .percentage {
-  padding: 1.3rem;
-  font-size: 1.5rem;
+  padding: 21px;
+  font-size: 24px;
   font-weight: bold;
   color: #fff;
 }
